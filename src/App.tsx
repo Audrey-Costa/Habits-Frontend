@@ -1,14 +1,13 @@
 import './App.css';
-import { Habit } from './components/Habits/Habit';
+import { Header } from './components/Header/Header';
 
-function App() {
+function App(): JSX.Element {
   return (
-    <>
-      <Habit completed={1}/>
-      <Habit completed={2}/>
-      <Habit completed={3}/>
-      <Habit completed={4}/>
-    </>
+    <div className="window">
+      <div className='container'>
+        <Header />
+      </div>
+    </div>
   )
 }
 
