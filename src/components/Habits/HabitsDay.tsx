@@ -1,9 +1,9 @@
 import "./HabitsDay.css";
 
-interface HabitsDayProps {
+/* interface HabitsDayProps {
   completed?: number;
-}
+} */
 
-export function HabitsDay(props: HabitsDayProps): JSX.Element {
+export function HabitsDay(): JSX.Element {
   return <div className="habit"></div>;
 }

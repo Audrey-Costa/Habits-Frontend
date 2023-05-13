@@ -19,7 +19,7 @@ export function Calendar(): JSX.Element {
       </div>
       <div>
         {currentDays.map((day) => {
-          return <div key={day} />;
+          return <HabitsDay key={day}/>;
         })}
         {disabledDays > 0 &&
           Array.from({ length: disabledDays }).map((_, index) => {
